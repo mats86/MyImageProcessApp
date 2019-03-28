@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Image Process App</string>
+    <string name="text_recognition_app">Text Recognition</string>
+    <string name="mainIcon">Main Icon</string>
+    <string name="color_tracking">Color Tracking</string>
+    <string name="text_recognition">Text Recognition</string>
+    <string name="title_activity_color_tracking">Color Tracking</string>
+    <string name="st_yellowColor">Yellow</string>
+    <string name="st_greenColor">Green</string>
+    <string name="st_blueColor">Blue</string>
+    <string name="st_grayColor">Gray</string>
+    <string name="st_orangeColor">Orange</string>
+    <string name="st_redColor">Red</string>
+    <string name="st_color_tracking">%1$s Color Tracking</string>
+    <string name="st_setting_color">Setting Color Tracking</string>
+    <string name="st_styl_color_setting">D</string>
+    <string name="st_lower_range">Lower Range</string>
+    <string name="st_upper_range">Upper Range</string>
+    <string name="st_H">H</string>
+    <string name="st_S">S</string>
+    <string name="st_V">V</string>
+</resources>
