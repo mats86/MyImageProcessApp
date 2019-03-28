@@ -1,0 +1,5 @@
+# ninja log v5
+0	519	0	CMakeFiles/native-lib.dir/native-lib.cpp.o	316a1498d40c5373
+519	721	0	/home/mats86/AndroidStudioProjects/MyImageProcessApp/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	47b1ac44dc4a6bea
+0	489	0	CMakeFiles/native-lib.dir/native-lib.cpp.o	316a1498d40c5373
+489	566	0	/home/mats86/AndroidStudioProjects/MyImageProcessApp/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	47b1ac44dc4a6bea
