@@ -1,5 +1,0 @@
-# ninja log v5
-0	492	0	CMakeFiles/native-lib.dir/native-lib.cpp.o	2c0402f2aa8dfdfc
-492	605	0	/home/mats86/AndroidStudioProjects/MyImageProcessApp/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	740da49a3afd26cd
-1	511	0	CMakeFiles/native-lib.dir/native-lib.cpp.o	2c0402f2aa8dfdfc
-511	549	0	/home/mats86/AndroidStudioProjects/MyImageProcessApp/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	740da49a3afd26cd

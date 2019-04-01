@@ -1,16 +1,16 @@
 {
   "buildFiles": [
-    "/home/mats86/AndroidStudioProjects/MyImageProcessApp/app/src/main/cpp/CMakeLists.txt"
+    "C:\\Users\\malattas\\Documents\\AndroidProject\\MyImageProcessApp2\\app\\src\\main\\cpp\\CMakeLists.txt"
   ],
   "cleanCommands": [
-    "/home/mats86/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/mats86/AndroidStudioProjects/MyImageProcessApp/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
+    "C:\\Users\\malattas\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\malattas\\Documents\\AndroidProject\\MyImageProcessApp2\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target clean"
   ],
   "libraries": {
     "native-lib-Debug-arm64-v8a": {
       "artifactName": "native-lib",
-      "buildCommand": "/home/mats86/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/mats86/AndroidStudioProjects/MyImageProcessApp/app/.externalNativeBuild/cmake/debug/arm64-v8a --target native-lib",
+      "buildCommand": "C:\\Users\\malattas\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\malattas\\Documents\\AndroidProject\\MyImageProcessApp2\\app\\.externalNativeBuild\\cmake\\debug\\arm64-v8a --target native-lib",
       "abi": "arm64-v8a",
-      "output": "/home/mats86/AndroidStudioProjects/MyImageProcessApp/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so"
+      "output": "C:\\Users\\malattas\\Documents\\AndroidProject\\MyImageProcessApp2\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libnative-lib.so"
     }
   }
 }
