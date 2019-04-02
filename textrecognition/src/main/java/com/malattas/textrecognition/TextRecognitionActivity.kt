@@ -112,10 +112,6 @@ class TextRecognitionActivity : AppCompatActivity() {
         {
             surface_camera_preview.visibility = View.VISIBLE
             startCameraSource()
-//            val thumbnail = data!!.extras!!.get("data") as Bitmap
-//            imageview!!.setImageBitmap(thumbnail)
-//            saveImage(thumbnail)
-//            Toast.makeText(this@TextRecognitionActivity, "Image saved!", Toast.LENGTH_SHORT).show()
         }
     }
 

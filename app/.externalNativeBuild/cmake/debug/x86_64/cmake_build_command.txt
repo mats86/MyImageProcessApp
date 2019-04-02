@@ -1,15 +1,15 @@
-Executable : C:\Users\malattas\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe
+Executable : /home/mats86/Android/Sdk/cmake/3.6.4111459/bin/cmake
 arguments : 
--HC:\Users\malattas\Documents\AndroidProject\MyImageProcessApp2\app\src\main\cpp
--BC:\Users\malattas\Documents\AndroidProject\MyImageProcessApp2\app\.externalNativeBuild\cmake\debug\x86_64
+-H/home/mats86/AndroidStudioProjects/MyImageProcessApp/app/src/main/cpp
+-B/home/mats86/AndroidStudioProjects/MyImageProcessApp/app/.externalNativeBuild/cmake/debug/x86_64
 -DANDROID_ABI=x86_64
--DANDROID_PLATFORM=android-21
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\malattas\Documents\AndroidProject\MyImageProcessApp2\app\build\intermediates\cmake\debug\obj\x86_64
+-DANDROID_PLATFORM=android-23
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/mats86/AndroidStudioProjects/MyImageProcessApp/app/build/intermediates/cmake/debug/obj/x86_64
 -DCMAKE_BUILD_TYPE=Debug
--DANDROID_NDK=C:\Users\malattas\AppData\Local\Android\Sdk\ndk-bundle
+-DANDROID_NDK=/home/mats86/Android/Sdk/ndk-bundle
 -DCMAKE_CXX_FLAGS=
--DCMAKE_TOOLCHAIN_FILE=C:\Users\malattas\AppData\Local\Android\Sdk\ndk-bundle\build\cmake\android.toolchain.cmake
--DCMAKE_MAKE_PROGRAM=C:\Users\malattas\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe
+-DCMAKE_TOOLCHAIN_FILE=/home/mats86/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/home/mats86/Android/Sdk/cmake/3.6.4111459/bin/ninja
 -GAndroid Gradle - Ninja
 jvmArgs : 
 

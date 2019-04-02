@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MyImageProcessApp2.iml" filepath="$PROJECT_DIR$/MyImageProcessApp2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyImageProcessApp.iml" filepath="$PROJECT_DIR$/MyImageProcessApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/textrecognition/textrecognition.iml" filepath="$PROJECT_DIR$/textrecognition/textrecognition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ziadorlina/ziadorlina.iml" filepath="$PROJECT_DIR$/ziadorlina/ziadorlina.iml" />
     </modules>
   </component>
 </project>

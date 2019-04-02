@@ -1,1 +1,1 @@
-include ':app', ':textrecognition'
+include ':app', ':textrecognition', ':ziadorlina'

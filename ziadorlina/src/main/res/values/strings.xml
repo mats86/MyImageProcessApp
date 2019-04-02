@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ZiadOrLina</string>
+
+    <string name="ziad">Ziad</string>
+    <string name="lina">Lina</string>
+    <string name="mohammed">Mohammed</string>
+    <string name="unknown">unknown</string>
+
+    <string name="take_photo">Take photo</string>
+
+</resources>

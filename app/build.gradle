@@ -6,7 +6,7 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.malattas.myimageprocessapp"
-        minSdkVersion 21
+        minSdkVersion 23
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -40,4 +40,5 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.1.2-alpha2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0-alpha02'
     implementation project(':textrecognition')
+    implementation project(':ziadorlina')
 }

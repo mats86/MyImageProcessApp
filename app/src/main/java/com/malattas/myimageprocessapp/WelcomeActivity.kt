@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.malattas.textrecognition.TextRecognitionActivity
+import com.malattas.ziadorlina.ZiadorLinaActivity
 import kotlinx.android.synthetic.main.activity_welcome.*
 
 class WelcomeActivity : AppCompatActivity() {
@@ -35,6 +36,12 @@ class WelcomeActivity : AppCompatActivity() {
 //                GenderAgeActivity::class.java)
 //            startActivity(textRecognitionIntent)
 //        }
+
+        btnZiadOrLina.setOnClickListener {
+            val ziadOrLinaIntent = Intent(this@WelcomeActivity,
+                ZiadorLinaActivity::class.java)
+            startActivity(ziadOrLinaIntent)
+        }
     }
 
     /**

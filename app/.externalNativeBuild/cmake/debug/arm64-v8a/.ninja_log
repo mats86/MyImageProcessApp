@@ -1,3 +1,9 @@
 # ninja log v5
-0	914	0	CMakeFiles/native-lib.dir/native-lib.cpp.o	d558ee054c07ba35
-916	1044	0	C:/Users/malattas/Documents/AndroidProject/MyImageProcessApp2/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	4222ab7222834f5a
+0	600	0	CMakeFiles/native-lib.dir/native-lib.cpp.o	4ea23f09c9b41b28
+601	785	0	/home/mats86/AndroidStudioProjects/MyImageProcessApp/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	e4cfdba95ea52efc
+0	552	0	CMakeFiles/native-lib.dir/native-lib.cpp.o	4ea23f09c9b41b28
+552	875	0	/home/mats86/AndroidStudioProjects/MyImageProcessApp/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	e4cfdba95ea52efc
+14	548	0	CMakeFiles/native-lib.dir/native-lib.cpp.o	4ea23f09c9b41b28
+548	880	0	/home/mats86/AndroidStudioProjects/MyImageProcessApp/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	e4cfdba95ea52efc
+1	508	0	CMakeFiles/native-lib.dir/native-lib.cpp.o	4ea23f09c9b41b28
+508	587	0	/home/mats86/AndroidStudioProjects/MyImageProcessApp/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	e4cfdba95ea52efc

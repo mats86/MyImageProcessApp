@@ -35,6 +35,11 @@
                 android:label="@string/text_recognition_app">
 
         </activity>
+
+        <activity android:name="com.malattas.ziadorlina.ZiadorLinaActivity"
+                  android:label="Ziad or Lina">
+
+        </activity>
     </application>
 
 </manifest>
