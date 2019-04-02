@@ -71,8 +71,16 @@ class ZiadorLinaActivity : AppCompatActivity() {
     }
 
     private fun takePhotoFromCamera() {
-        val intent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
-        startActivityForResult(intent, CAMERA)
+        photoFilePath = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES).absolutePath + "/${System.currentTimeMillis()}.jpg"
+        val currentPhotoUri = getUriFromFilePath(this, photoFilePath)
+
+        val takePictureIntent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
+        takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, currentPhotoUri)
+        takePictureIntent.flags = Intent.FLAG_GRANT_READ_URI_PERMISSION
+
+        if (takePictureIntent.resolveActivity(packageManager) != null) {
+            startActivityForResult(takePictureIntent, CAMERA)
+        }
     }
 
     private fun createClassifier() {
@@ -116,24 +124,10 @@ class ZiadorLinaActivity : AppCompatActivity() {
         }
         else if (requestCode == CAMERA)
         {
-            takePhoto()
             val file = File(photoFilePath)
             if (file.exists()) {
                 classifyPhoto(file)
             }
-        }
-    }
-
-    private fun takePhoto() {
-        photoFilePath = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES).absolutePath + "/${System.currentTimeMillis()}.jpg"
-        val currentPhotoUri = getUriFromFilePath(this, photoFilePath)
-
-        val takePictureIntent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
-        takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, currentPhotoUri)
-        takePictureIntent.flags = Intent.FLAG_GRANT_READ_URI_PERMISSION
-
-        if (takePictureIntent.resolveActivity(packageManager) != null) {
-            startActivityForResult(takePictureIntent, CAMERA)
         }
     }
 
